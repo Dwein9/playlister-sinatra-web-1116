@@ -4,9 +4,10 @@
   <title></title>
 </head>
 <body>
+
   <form action="/songs" method="POST">
-    <input type="text" name="song[name]" id="Name">
-    <input type="text" name="artist[name]" id="Artist Name">
+    Song: <input type="text" name="song[name]" id="Name">
+    Artist: <input type="text" name="artist[name]" id="Artist Name">
 
 
     <% @genres.each do |genre| %>
